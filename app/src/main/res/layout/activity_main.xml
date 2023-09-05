@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#602513"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idTVQuestionAttempted"
+        android:layout_width="369dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="Number of Questions"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#CC9D4B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/idTVQuestion"
+
+        android:layout_width="343dp"
+        android:layout_height="88dp"
+        android:text="Questions"
+        android:textAlignment="center"
+        android:textColor="#EAABA6"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:background="#602513"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <Button
+            android:id="@+id/idBtnOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#E8170C0B"
+            android:padding="4dp"
+            android:text="Option 1"
+            android:textAllCaps="false"
+            android:textColor="#F1E1A1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.427"
+            tools:layout_editor_absoluteX="9dp" />
+
+        <Button
+            android:id="@+id/idBtnOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#E8170C0B"
+            android:padding="4dp"
+            android:text="Option 2"
+            android:textAllCaps="false"
+            android:textColor="#F1E1A1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.304"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:id="@+id/idBtnOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#E8170C0B"
+            android:padding="4dp"
+            android:text="Option 3"
+            android:textAllCaps="false"
+            android:textColor="#F1E1A1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.519"
+            tools:layout_editor_absoluteX="15dp" />
+
+        <Button
+            android:id="@+id/idBtnOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#E8170C0B"
+            android:padding="4dp"
+            android:text="Option 4"
+            android:textAllCaps="false"
+            android:textColor="#F1E1A1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243"
+            tools:layout_editor_absoluteX="-2dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
